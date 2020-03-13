@@ -1,15 +1,19 @@
 ## Introduction 
 create a redis-sentinel demo in a single server
 
-## version
-redis-4.0.12
-redis-5.0.8
+## version   
+redis-4.0.12  
+redis-5.0.8  
 
 ## dependencies
-* redis
+* redis  
+    ```bash
     yum install -y jemalloc-devel
-* test
+    ```
+* test  
+    ```bash
     pip install redis
+    ```
 
 ## Ports
 1. redis replica
